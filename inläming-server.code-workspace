@@ -1,0 +1,10 @@
+{
+  "folders": [
+	{
+		"path": "../inläming-server"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "inläming-server"
+  }
+}

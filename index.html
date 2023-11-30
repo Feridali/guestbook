@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guesbook</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Guestbook</h1>
+    <form action="/submit" method="post">
+      <label>Name:</label><input type="text" name="Name" <br />
+      <!-- <label>Email: </label><input type="text" name="Email" <br /> -->
+      <label>Homepage:</label><input type="text" name="Homepage" <br />
+      <!--  <label>Tel: </label><input type="text" name="Tel" /> -->
+      <label>Comment: </label><input type="text" name="Comment" <br />
+      <!-- ... andra fält ... -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <div>***GÄSTER***</div>
+    <script src="index.js"></script>
+  </body>
+</html>
